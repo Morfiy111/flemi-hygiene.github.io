@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('../webfonts/PTSans-Regular.ttf'),
+        url('../webfonts/PTSans-Bold.ttf'),
+        url('../webfonts/PTSans-Italic.ttf');
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+a {
+    color: #0f3a4b;
+    text-decoration: none;
+}
+
+a,
+button {
+    transition: all .3s linear;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
