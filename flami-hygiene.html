@@ -17,13 +17,79 @@
     <div class="header-block-page">
         <div class="header-overlay"></div>
         <div class="container">
-            <header class="header-page">
-                <i class="fa-brands fa-android"></i>
+            <header class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="header-logo header-logo-white">
+                    <a href="/">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Для женщин</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Для детей</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Забота о близких</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Для профессионалов</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">О компании</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-pnone-block">
+                    <a href="tel:+79513123181"><i class="fa-solid fa-mobile-screen-button"></i> 8-951-312-31-81
+                    </a>
+                    <a href="flamingo@flamingoproduct.ru" title="Написать письмо">
+                        <i class="fa-solid fa-envelope"></i> flamingo@flamingoproduct.ru
+                    </a>
+                </div>
             </header>
+            <div class="title-page main-page-title">
+                <h1>Flami Hygiene | Новая линейка средств гигиены</h1>
+            </div>
         </div>
     </div>
 
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <form class="owl-feedback-form js-send-form" action="/contact" method="post"
+                        enctype="multipart/form-data">
+                        <h3>Заполните и отправьте заявку!</h3>
+                        <input type="text" name="name" placeholder="Пример: Иван" pattern="^[A-Za-zА-Яа-я]{3,32}$"
+                            required>
+                        <input type="text" name="phone" pattern="^\+?[0-9\s\-\(\)]+$" placeholder="Пример: +71231231212"
+                            required>
+                        <input type="text" name="email" placeholder="Пример: username@host.domain" required>
+                        <textarea rows="5" name="comment" placeholder="Ваше сообщение" required
+                            maxlength="3000"></textarea>
+                        <input type="file" name="file" class="input-file-modal">
+                        <div class="btn-page-block">
+                            <button type="submit" class="page-btn">Отправить
+                                заявку
+                            </button>
+                            <p class="registration__agree">Нажимая кнопку «Зарегистрироваться»
+                                вы соглашаетесь с <a href="#">политикой
+                                    конфиденциальности</a>.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="footer-page">
         <div class="container">
             <div class="footer-flex-block">
@@ -33,29 +99,31 @@
                     </a>
                 </div>
                 <div class="footer-links">
-                    <a href="#">Каталог</a>
-                    <a href="#">О нас</a>
+                    <a href="#">Для женщин</a>
+                    <a href="#">Для детей</a>
+                    <a href="#">Забота о близких</a>
                 </div>
                 <div class="footer-links">
-                    <a href="#">Контакты</a>
-                    <a href="#">Отзывы</a>
+                    <a href="#">Для профессионалов</a>
+                    <a href="#">О компании</a>
                 </div>
                 <div class="footer-address">
                     <div class="footer-address-item">
-                        <a href="avs046@mail.ru" title="Написать письмо">
-                            <i class="fa fa-envelope"></i>
-                            <span>avs046@mail.ru</span>
+                        <a href="flamingo@flamingoproduct.ru" title="Написать письмо">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>flamingo@flamingoproduct.ru</span>
                         </a>
                     </div>
                     <div class="footer-address-item">
-                        <a href="tel:+79107402878"><i class="fa fa-phone" aria-hidden="true"></i> +7 (910) 740-28-78</a>
+                        <a href="tel:+78126678378"><i class="fa-solid fa-mobile-screen-button"></i> +7 (812)
+                            667-83-78</a>
                     </div>
                     <div class="footer-address-item social-block">
                         <a href="#" target="_blank" title="Мы ВКонтакте">
-                            <i class="fa fa-vk" aria-hidden="true"></i>
+                            <i class="fa-brands fa-vk"></i>
                         </a>
                         <a href="#" target="_blank" title="Мы в Telegram">
-                            <i class="fa fa-telegram" aria-hidden="true"></i>
+                            <i class="fa-brands fa-telegram"></i>
                         </a>
                     </div>
                 </div>
