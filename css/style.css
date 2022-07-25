@@ -25,7 +25,7 @@ a:hover {
 }
 
 .header-block-page {
-    background-image: url("../images/banner1.jpg");
+    background-image: url("../images/momanddaughter.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -62,6 +62,11 @@ a:hover {
 .header-pnone-block a {
     color: #fff;
     border-bottom: 1px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.header-pnone-block a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 .main-page-title {
@@ -127,4 +132,41 @@ a:hover {
 .social-block {
     font-size: 18px;
     display: flex;
+}
+
+.image-content-title {
+    background-image: url('../images/foto2.jpg');
+    background-position: 71%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.main-title,
+.subtitle-page,
+.title-bottom-flex {
+    position: relative;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.btn-site a {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.white-btn a {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.white-btn a:hover {
+    color: #333;
+    background-color: #fff;
+}
+
+.subtitle-page {
+    margin-bottom: 30px;
 }
