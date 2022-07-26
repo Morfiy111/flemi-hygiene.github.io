@@ -77,32 +77,117 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-body">
-                    <form class="owl-feedback-form js-send-form" action="/contact" method="post"
-                        enctype="multipart/form-data">
-                        <h3>Заполните и отправьте заявку!</h3>
-                        <input type="text" name="name" placeholder="Пример: Иван" pattern="^[A-Za-zА-Яа-я]{3,32}$"
-                            required>
-                        <input type="text" name="phone" pattern="^\+?[0-9\s\-\(\)]+$" placeholder="Пример: +71231231212"
-                            required>
-                        <input type="text" name="email" placeholder="Пример: username@host.domain" required>
-                        <textarea rows="5" name="comment" placeholder="Ваше сообщение" required
-                            maxlength="3000"></textarea>
-                        <input type="file" name="file" class="input-file-modal">
-                        <div class="btn-page-block">
-                            <button type="submit" class="page-btn">Отправить
-                                заявку
-                            </button>
-                            <p class="registration__agree">Нажимая кнопку «Зарегистрироваться»
-                                вы соглашаетесь с <a href="#">политикой
-                                    конфиденциальности</a>.</p>
-                        </div>
-                    </form>
+        <h2 class="title-page">Наши преимущества</h2>
+        <div class="advantages-flex-block">
+            <div class="advantages-flex-item">
+                <div class="advantages-flex-icon">
+                    <i class="fa-solid fa-industry"></i>
+                </div>
+                <div class="advantages-flex-text">
+                    Cовременные производственные линии
+                </div>
+            </div>
+            <div class="advantages-flex-item">
+                <div class="advantages-flex-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="advantages-flex-text">
+                    Объем производства: 50 миллионов штук в год
+                </div>
+            </div>
+            <div class="advantages-flex-item">
+                <div class="advantages-flex-icon">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="advantages-flex-text">
+                    Постоянный и жесткий контроль над качеством
+                </div>
+            </div>
+            <div class="advantages-flex-item">
+                <div class="advantages-flex-icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <div class="advantages-flex-text">
+                    Тщательный, подробный анализ на предмет экологической безопасности
+                </div>
+            </div>
+        </div>
+        <h2 class="title-page">Мы предлагаем</h2>
+        <div class="main-goods">
+            <div class="main-goods-item">
+                <a href="#">
+                    <img alt="" src="images/woman.jpg">
+                    <span class="goods-description">Для женщин</span>
+                </a>
+            </div>
+            <div class="main-goods-item">
+                <a href="#">
+                    <img alt="" src="images/child.jpg">
+                    <span class="goods-description">Для детей</span>
+                </a>
+            </div>
+            <div class="main-goods-item">
+                <a href="#">
+                    <img alt="" src="images/care.jpg">
+                    <span class="goods-description">Забота о близких</span>
+                </a>
+            </div>
+            <div class="main-goods-item">
+                <a href="#">
+                    <img alt="" src="images/doctor.jpg">
+                    <span class="goods-description">Профессионалам</span>
+                </a>
+            </div>
+        </div>
+        <div class="button-center">
+            <button class="page-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Написать
+                нам</button>
+        </div>
+        <h2 class="title-page">Контакты</h2>
+        <div class="flex-contacts-page">
+            <div class="flex-contacts-item">
+                <div>
+                    <a href="tel:+78126678378"><i class="fa-solid fa-mobile-screen-button"></i> +7 (812) 667-83-78</a>
+                </div>
+                <div>
+                    <a href="mailto:flamingo@flamingoproduct.ru" title="Написать письмо">
+                        <i class="fa-solid fa-envelope"></i> <span>flamingo@flamingoproduct.ru</span>
+                    </a>
+                </div>
+                <div class="contact-page-address"><i class="fa-solid fa-map-location-dot"></i> ООО «Фламинго»,
+                    Российская Федерация, Ленинградская область,
+                    Кировский район, г. Кировск, ул. Набережная, д. 1, а/я 14</div>
+            </div>
+            <div class="flex-contacts-item">
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9671ad0d4a9e46d1396ab6fc44c7b4bda5a562ccb71ed325d10018ca166e3dde&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-body">
+                        <form class="owl-feedback-form js-send-form" action="/contact" method="post"
+                            enctype="multipart/form-data">
+                            <h3>Заполните и отправьте заявку!</h3>
+                            <input type="text" name="name" placeholder="Пример: Иван" pattern="^[A-Za-zА-Яа-я]{3,32}$"
+                                required>
+                            <input type="text" name="phone" pattern="^\+?[0-9\s\-\(\)]+$"
+                                placeholder="Пример: +71231231212" required>
+                            <input type="text" name="email" placeholder="Пример: username@host.domain" required>
+                            <textarea rows="5" name="comment" placeholder="Ваше сообщение" required
+                                maxlength="3000"></textarea>
+                            <div class="btn-page-block">
+                                <button type="submit" class="page-btn">Отправить
+                                    заявку
+                                </button>
+                                <p class="registration-agree">Нажимая кнопку "Отправить заявку",
+                                    вы соглашаетесь с <a href="#">политикой
+                                        конфиденциальности</a>.</p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
