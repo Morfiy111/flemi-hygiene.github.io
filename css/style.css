@@ -340,6 +340,10 @@ button.btn-close {
     visibility: visible;
 }
 
+.image-women-back {
+    background-color: #d6eef5;
+    background-image: url('../images/women.png');
+}
 
 @media(max-width:1199px) {
     .navbar {
