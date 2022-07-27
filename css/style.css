@@ -312,6 +312,35 @@ button.btn-close {
     color: #00adef;
 }
 
+.button-up {
+    right: 30px;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    color: #0089c1;
+    line-height: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 9;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 4px 10.76px;
+    font-size: 22px;
+}
+
+.showbtn {
+    opacity: 0;
+    transition: all .3s linear;
+    visibility: hidden;
+}
+
+.showbtn.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
