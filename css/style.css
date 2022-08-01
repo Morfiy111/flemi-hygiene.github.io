@@ -389,6 +389,7 @@ button.btn-close {
     display: flex;
     font-size: 24px;
     margin-bottom: 20px;
+    align-items: baseline;
 }
 
 .goods-block-kids-desk-item i {
@@ -446,8 +447,22 @@ button.btn-close {
     margin-bottom: 5px;
 }
 
+.flami-pic-images {
+    display: flex;
+    justify-content: space-between;
+}
+
 .goods-block-kids-desk-min .goods-block-kids-desk-item i {
     width: 16px;
+}
+
+.flami-pic-images-item {
+    width: 48%;
+}
+
+.flami-pic-images-item img {
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 @media(max-width:1199px) {
@@ -468,6 +483,10 @@ button.btn-close {
 
     .navbar-expand-md .navbar-collapse {
         width: 70%;
+    }
+
+    .flami-pic-images-text h3 {
+        height: 67px;
     }
 }
 
@@ -516,6 +535,21 @@ button.btn-close {
 
     .goods-block-kids-desk-reverce {
         flex-direction: column-reverse;
+    }
+
+    .flami-pic-images-text h3 {
+        height: auto;
+    }
+
+    .flami-pic-images-item,
+    .image-size-prod {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .flami-pic-images,
+    .size-block-flex {
+        flex-wrap: wrap;
     }
 }
 

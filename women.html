@@ -230,6 +230,17 @@
     <div class="button-up showbtn" title="Вверх!">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // инициализация слайдера
+            new ItcSimpleSlider('.itcss', {
+                loop: true,
+                autoplay: true,
+                interval: 5000,
+                swipe: true,
+            });
+        });
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script defer src="js/simple-adaptive-slider.min.js"></script>
     <script src="js/main.js"></script>
