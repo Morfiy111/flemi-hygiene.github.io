@@ -359,7 +359,7 @@ button.btn-close {
 }
 
 .logo-femini-block img {
-    width: 300px;
+    width: 350px;
     margin-bottom: 40px;
 }
 
@@ -367,6 +367,38 @@ button.btn-close {
     background-color: #e2fbf7;
     background-image: url('../images/kids.jpg');
     background-size: 50%;
+}
+
+.goods-block-kids {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.goods-block-kids-img img {
+    width: 100%;
+}
+
+.goods-block-kids-img,
+.goods-block-kids-desk {
+    width: 48%;
+}
+
+.goods-block-kids-desk-item {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.goods-block-kids-desk-item i {
+    color: #00adef;
+    margin-right: 15px;
+    width: 30px;
+}
+
+.logo-femini-block {
+    text-align: center;
 }
 
 @media(max-width:1199px) {
@@ -413,7 +445,8 @@ button.btn-close {
         margin-bottom: 20px;
     }
 
-    .footer-flex-block {
+    .footer-flex-block,
+    .goods-block-kids {
         flex-wrap: wrap;
     }
 
@@ -421,8 +454,19 @@ button.btn-close {
         flex-direction: column;
     }
 
-    .flex-contacts-item {
+    .flex-contacts-item,
+    .goods-block-kids-img,
+    .goods-block-kids-desk {
         width: 100%;
+    }
+
+    .goods-block-kids-desk,
+    .goods-block-kids-img {
+        margin-bottom: 20px;
+    }
+
+    .goods-block-kids-desk-reverce {
+        flex-direction: column-reverse;
     }
 }
 
