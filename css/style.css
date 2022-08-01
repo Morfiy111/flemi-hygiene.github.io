@@ -401,6 +401,55 @@ button.btn-close {
     text-align: center;
 }
 
+.size-block-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.image-size-prod {
+    text-align: center;
+}
+
+.image-size-prod img {
+    width: 248px;
+}
+
+.product-sizes-item {
+    text-align: center;
+    padding: 15px;
+}
+
+.product-sizes-item img {
+    width: 33px;
+    height: 55px;
+    transition: all .3s linear;
+}
+
+.product-sizes-title {
+    font-size: 24px;
+    color: #9078b4;
+    text-align: center;
+}
+
+.product-sizes-title-oliv {
+    color: #00d3c6;
+}
+
+.product-sizes-item:hover img {
+    transform: scale(1.1);
+}
+
+.goods-block-kids-desk-min .goods-block-kids-desk-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.goods-block-kids-desk-min .goods-block-kids-desk-item i {
+    width: 16px;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
