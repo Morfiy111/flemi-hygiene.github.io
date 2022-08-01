@@ -363,6 +363,12 @@ button.btn-close {
     margin-bottom: 40px;
 }
 
+.image-kids-back {
+    background-color: #e2fbf7;
+    background-image: url('../images/kids.jpg');
+    background-size: 50%;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
