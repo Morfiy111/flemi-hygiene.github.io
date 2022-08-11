@@ -473,6 +473,23 @@ button.btn-close {
     margin-bottom: 40px;
 }
 
+.icon-big-woman i {
+    font-size: 40px;
+}
+
+.goods-block-woman {
+    margin: 40px 0;
+}
+
+.icon-big-woman {
+    text-align: center;
+}
+
+.icon-big-woman i {
+    font-size: 120px;
+    color: #00adef;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
