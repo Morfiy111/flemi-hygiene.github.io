@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/fontawesome.min.css" rel="stylesheet">
-    <link href="css/simple-adaptive-slider.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <title>Flami Hygiene</title>
@@ -120,28 +119,18 @@
             <button class="page-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Написать
                 нам</button>
         </div>
-        <div class="itcss">
-            <div class="itcss__wrapper">
-                <div class="itcss__items">
-                    <div class="itcss__item">
-                        <div class="slider-women-description">
-                            <h3>Прокладки Ultra</h3>
-                            <p>В линейке Ultra представлены дневные и ночные прокладки. Это безусловная защита
-                                и комфорт! Выпускаются в упаковке по 10 штук, а также в – экономичной промо упаковке.
-                            </p>
-                        </div>
-                        <img src="images/slide1.jpg">
-                    </div>
-                    <div class="itcss__item">
-                        <div class="slider-women-description">
-                            <h3>Прокладки Classic</h3>
-                            <p>Прокладки Classic
-                                Наша классическая линейка по доступной цене! В линейке Classic представлены дневные и
-                                ночные прокладки.
-                            </p>
-                        </div>
-                        <img src="images/slide2.jpg">
-                    </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
                     <div class="itcss__item">
                         <div class="slider-women-description">
                             <h3>Ежедневные прокладки Everyday</h3>
@@ -152,9 +141,40 @@
                         <img src="images/slide3.jpg">
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="itcss__item">
+                        <div class="slider-women-description">
+                            <h3>Прокладки Classic</h3>
+                            <p>Прокладки Classic
+                                Наша классическая линейка по доступной цене! В линейке Classic представлены дневные и
+                                ночные прокладки.
+                            </p>
+                        </div>
+                        <img src="images/slide2.jpg">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="itcss__item">
+                        <div class="slider-women-description">
+                            <h3>Прокладки Ultra</h3>
+                            <p>В линейке Ultra представлены дневные и ночные прокладки. Это безусловная защита
+                                и комфорт! Выпускаются в упаковке по 10 штук, а также в – экономичной промо упаковке.
+                            </p>
+                        </div>
+                        <img src="images/slide1.jpg">
+                    </div>
+                </div>
             </div>
-            <a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
-            <a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
         <div class="logo-femini-block">
             <img src="images/femini.png" alt="Femini">
@@ -256,19 +276,8 @@
     <div class="button-up showbtn" title="Вверх!">
         <i class="fa-solid fa-arrow-up"></i>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // инициализация слайдера
-            new ItcSimpleSlider('.itcss', {
-                loop: true,
-                autoplay: true,
-                interval: 5000,
-                swipe: true,
-            });
-        });
-    </script>
+
     <script src="js/bootstrap.min.js"></script>
-    <script defer src="js/simple-adaptive-slider.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

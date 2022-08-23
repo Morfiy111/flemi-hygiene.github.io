@@ -518,6 +518,31 @@ button.btn-close {
     color: #00adef;
 }
 
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chevron-background {
+    font-size: 55px;
+    color: #6d247b;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
