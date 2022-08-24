@@ -547,6 +547,10 @@ button.btn-close {
     color: #6d247b;
 }
 
+.footer-flex-block .header-logo a {
+    margin: 0;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
