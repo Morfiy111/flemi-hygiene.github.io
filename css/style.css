@@ -129,6 +129,22 @@ a:hover {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,173,239, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300adef'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2300adef'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #00adef;
+}
+
+.carousel {
+    margin-bottom: 40px;
+}
+
 .footer-copyright a:hover,
 .footer-flex-block a:hover {
     border-bottom: 1px solid #fff;
@@ -149,6 +165,9 @@ a:hover {
     position: relative;
 }
 
+.margin-bottom-class {
+    margin-bottom: 40px;
+}
 
 
 .main-title {
@@ -380,9 +399,21 @@ button.btn-close {
 .image-women-back {
     background-color: #d6eef5;
     background-image: url('../images/women.png');
+    padding: 20px 40px;
 }
 
-.itcss {
+.image-women-back .title-page,
+.image-women-back .subtitle-page {
+    color: #fff;
+    position: relative;
+}
+
+.logo-femini-block p {
+    font-size: 22px;
+    color: #6d247b;
+}
+
+.image-women-back .itcss {
     max-width: 100%;
     margin-bottom: 40px;
     padding: 10px 40px;
@@ -555,6 +586,29 @@ button.btn-close {
     margin-top: 40px;
 }
 
+.owl-carousel-item-feedback {
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.stars-block-feedback i {
+    color: #00adef;
+    font-size: 22px;
+}
+
+.stars-block-feedback {
+    margin-bottom: 20px;
+}
+
+.feedback-text-block {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.carousel-women {
+    margin-bottom: 60px;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
@@ -667,5 +721,9 @@ button.btn-close {
 
     .logo-femini-block img {
         width: 100%;
+    }
+
+    .owl-carousel-item-feedback {
+        padding: 20px 40px;
     }
 }

@@ -1,3 +1,27 @@
+var owl = $('.owl-carousel-feedback');
+owl.owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true
+});
+
+var owl = $('.carousel-women');
+owl.owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true
+});
+
 window.addEventListener('scroll', function () {
     let scroll = this.document.querySelector('.button-up');
     scroll.classList.toggle('active', this.window.scrollY > 400);
@@ -34,3 +58,5 @@ owl.owlCarousel({
     autoplayTimeout: 3000,
     autoplayHoverPause: true
 });
+
+
