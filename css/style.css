@@ -233,7 +233,7 @@ a:hover {
 
 .advantages-flex-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 60px;
 }
