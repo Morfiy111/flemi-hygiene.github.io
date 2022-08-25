@@ -609,6 +609,10 @@ button.btn-close {
     margin-bottom: 60px;
 }
 
+.goods-block-kids-desk-reverce {
+    margin-top: 40px;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
