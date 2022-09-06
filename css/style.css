@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'PT Sans';
-    src: url('../webfonts/PTSans-Regular.ttf'),
-        url('../webfonts/PTSans-Bold.ttf'),
-        url('../webfonts/PTSans-Italic.ttf');
+    src: url('../webfonts/Roboto-Regular.ttf'),
+        url('../webfonts/Roboto-Bold.ttf'),
+        url('../webfonts/Roboto-Italic.ttf');
 }
 
 body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
