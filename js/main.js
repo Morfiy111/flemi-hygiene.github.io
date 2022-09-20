@@ -1,15 +1,3 @@
-var owl = $('.owl-carousel-feedback');
-owl.owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 0,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true
-});
-
 var owl = $('.carousel-women');
 owl.owlCarousel({
     items: 1,

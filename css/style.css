@@ -240,7 +240,7 @@ a:hover {
 
 .advantages-flex-item {
     text-align: center;
-    width: 23%;
+    width: 19%;
     margin-bottom: 40px;
 
 }
@@ -521,6 +521,7 @@ button.btn-close {
 .flami-pic-images {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .goods-block-kids-desk-min .goods-block-kids-desk-item i {
@@ -627,6 +628,11 @@ button.btn-close {
     position: relative;
 }
 
+#woman-desk .flami-pic-images-item {
+    width: 32%;
+    margin-bottom: 40px;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
@@ -667,6 +673,10 @@ button.btn-close {
 
     .footer-flex-block .header-logo {
         margin-right: 30px;
+    }
+
+    #woman-desk .flami-pic-images-item {
+        width: 48%;
     }
 }
 
@@ -727,6 +737,10 @@ button.btn-close {
         height: 400px;
         object-fit: cover;
         max-width: 100%;
+    }
+
+    #woman-desk .flami-pic-images-item {
+        width: 100%;
     }
 }
 
