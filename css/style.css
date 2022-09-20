@@ -45,7 +45,7 @@ a:hover {
 .header-logo {
     background-color: #fff;
     padding: 6px 14px;
-    width: 180px;
+    /* width: 180px; */
 }
 
 .header-logo img {
