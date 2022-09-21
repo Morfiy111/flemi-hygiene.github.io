@@ -645,6 +645,11 @@ button.btn-close {
     font-size: 24px;
 }
 
+.price-middle i {
+    font-size: 20px;
+    color: #00adef;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
