@@ -633,6 +633,14 @@ button.btn-close {
     margin-bottom: 40px;
 }
 
+.goods-page-img img {
+    width: 100%;
+}
+
+.goods-page-img {
+    margin: 40px 0;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
