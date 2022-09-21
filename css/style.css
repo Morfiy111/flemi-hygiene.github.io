@@ -641,6 +641,10 @@ button.btn-close {
     margin: 40px 0;
 }
 
+.sizes-kids {
+    font-size: 24px;
+}
+
 @media(max-width:1199px) {
     .navbar {
         flex-wrap: wrap;
